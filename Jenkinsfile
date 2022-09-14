@@ -6,7 +6,7 @@ pipeline {
      echo 'Running build automation' 
      sh 'npm install'
      sh 'rm package-lock.json'
-     echo 'package-lock removed'
+     echo 'removed package-lock'
    }
   }  
  }       
