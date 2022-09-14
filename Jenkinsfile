@@ -5,7 +5,8 @@ pipeline {
     steps {
      echo 'Running build automation' 
      sh 'npm install'
-     sh 'npm start'
+     sh 'rm package-lock.json'
+     echo 'package-lock removed'
    }
   }  
  }       
